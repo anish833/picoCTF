@@ -36,7 +36,7 @@ this value is now in the first position in the stack now at ebp+0x8. On line 3 i
 ```jg``` which means ```jump if greater than```. Since 0x6fa is indeed greater than 0x3a2, we jump to the line given by this condition: line 37.
 On line 37 there is another comparison where ```0x6fa``` is compared to ```0x6fa``` and in next line it is using ```jne``` which means ```jump if
 not equal to``` but it doesn't satisfy the condition so we go to the next instruction. In instruction ```46``` it is moving ```0x6fa``` to ```eax```
-and on instruction ```49``` it is substracting ```0x12``` from ```0x6fa`` which will give ```0x6e8```. You can use ```https://www.calculator.net/hex-calculator.html```
+and on instruction ```49``` it is substracting ```0x12``` from ```0x6fa``` which will give ```0x6e8```. You can use ```https://www.calculator.net/hex-calculator.html```
 for calculation. After that on instruction ```52``` it used ```jmp``` which means ```jump to``` and given the instruction number to jump to i.e., ```60``` and on 60
 the stack is popped and eax is returned. Since eax is equal to 0x6e8, that is our flag.
 
