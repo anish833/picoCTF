@@ -3,7 +3,7 @@ Challenge:
 What does this bDNhcm5fdGgzX3IwcDM1 mean? I think it has something to do with bases.
 ```
 
-It is a base64 strings. You can tell this by seeing the mixed alphabets of lowercase and uppercase. I used my terminal for decrypting this, the command is
+It is a base64 string. You can tell this by seeing the mixed alphabets of lowercase and uppercase. I used my terminal for decrypting this, the command is
 ```
 echo bDNhcm5fdGgzX3IwcDM1 | base64 -d
 ```
