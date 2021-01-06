@@ -7,4 +7,6 @@ Connect with nc jupiter.challenges.picoctf.org 29221.
 Connecting to the server gave me 3 encoding to solve, ```binary, octal and hexadecimal``` and we have to convert it in ascii in given time.
 I used ```https://gchq.github.io/CyberChef/#input=Cg``` for decoding which is very popular tool for common encodings and forensics.
 
-<
+<img src="1.PNG" />
+
+flag:```picoCTF{learning_about_converting_values_00a975ff}```
