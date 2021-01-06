@@ -17,3 +17,7 @@ flag.txt: PNG image data, 1697 x 608, 8-bit/color RGB, non-interlaced
 ```
 
 This is a ```PNG``` file so changing the extension and viewing the image gave me the flag
+
+<img src="1.PNG" />
+
+flag:```picoCTF{now _you_know_about_extensions}```
