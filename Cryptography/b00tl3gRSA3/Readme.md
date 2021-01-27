@@ -11,8 +11,9 @@ e: 65537
 ```
 
 I tried factordb ```http://factordb.com/index.php``` for the factors of n it gave me many factors so i searched for factors other than p and q in RSA and got this link
-```https://crypto.stackexchange.com/questions/74891/decrypting-multi-prime-rsa-with-e-n-and-factors-of-n-given``` So i used factordb's factors but it didn't worked for me
-it didn't gave me all factors. So for large numbers i found ```https://www.alpertron.com.ar/ECM.HTM``` and it gave me all factors. I wrote a python script for this
+```https://crypto.stackexchange.com/questions/74891/decrypting-multi-prime-rsa-with-e-n-and-factors-of-n-given``` , it is called multi-prime RSA. So i used factordb's 
+factors but it didn't worked for me it didn't gave me all factors. So for large numbers i found ```https://www.alpertron.com.ar/ECM.HTM``` and it gave me all factors. 
+I wrote a python script for this
 
 ```
 #!/usr/bin/env python3
