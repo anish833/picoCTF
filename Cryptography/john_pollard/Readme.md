@@ -20,7 +20,7 @@ q16/S1WLvzg4PsElmv1f
 ```
 
 I checked the hint it says ```The flag is in the format picoCTF{p,q}``` so I just have to find p and q from this so i googled and found
-```https://bitsdeep.com/posts/attacking-rsa-for-fun-and-ctf-points-part-1/``` . So i python script
+```https://bitsdeep.com/posts/attacking-rsa-for-fun-and-ctf-points-part-1/``` . So i wrote a python script
 
 ```
 #!/usr/bin/env python3
@@ -38,5 +38,4 @@ so after getting n I went to factordb and got p and q
 p = 73176001
 q = 67867967
 ```
-So i submit the flag
-flag:```picoCTF{73176001,67867967}
+flag:```picoCTF{73176001,67867967}```
