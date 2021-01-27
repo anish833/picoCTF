@@ -103,6 +103,6 @@ Outstanding move!!!
 If you convert the last plaintext to a hex number, then ascii, you'll find what you need! ;)
 
 ```
-So the converting the last hex value to ascii we will get the flag
+So the converting the last value to hex and then to ascii will give the flag
 
 flag: ```picoCTF{wA8_th4t$_ill3aGal..o26cefcb2}```
