@@ -10,7 +10,7 @@ c = 2205316413931134031074603746928247799030155221252519872650073010782049179856
 ```
 
 The e seems very snall so i searched for it and it comes out that it is a vulnerability in RSA which led to decrypt the ciphertext with only e. We just have to find
-the cube root of ciphertext
+the cube root of ciphertext as the value of e is 3
 
 I wrote a python script for this
 ```
