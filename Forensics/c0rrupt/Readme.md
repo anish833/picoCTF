@@ -18,7 +18,7 @@ PNG magic bytes ```89 50 4E 47 0D 0A 1A 0A```
 PNG IHDR ```49 48 44 52```
 PNG IDAT ```49 44 41 54```
 
-The chunk size is ```AA AA FF A5```. So I select the chuck from IDAT to ```FF AF```
+The chunk size is ```AA AA FF A5``` which is very big than usual. So I select the chuck from IDAT to ```FF AF```
 
 <img src = 'Capture1.PNG' />
 <img src = 'Capture2.PNG' />
